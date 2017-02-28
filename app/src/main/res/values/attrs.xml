@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MeshView">
+        <attr name="meshViewWidth" format="integer" />
+        <attr name="meshViewHeight" format="integer" />
+        <attr name="meshViewLeft" format="integer" />
+        <attr name="meshViewTop" format="integer" />
+        <attr name="meshViewRight" format="integer" />
+        <attr name="meshViewBottom" format="integer" />
+    </declare-styleable>
+</resources>

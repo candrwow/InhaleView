@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_mesh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <candrwow.inhaleview.CustomView.MeshView
+        android:id="@+id/mv_inhale"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_inhale"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+    </candrwow.inhaleview.CustomView.MeshView>
+</RelativeLayout>
